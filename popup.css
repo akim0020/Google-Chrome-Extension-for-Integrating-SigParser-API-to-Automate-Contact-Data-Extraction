@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+p {
+  font-size: 14px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 5px 0;
+  background-color: #1B4786;
+}
+
+.logo {
+  width: 155px;
+}
+
+.exit-btn {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  background-color: #ffffff;
+  margin: 20px auto;
+}
+
+.header {
+  text-align: center;
+  background-color: #195a98;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header img.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.info {
+  font-size: 14px;
+  padding: 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin: 20px 0 10px;
+  font-size: 16px;
+  color: #1B4786;
+}
+
+.longdash {
+  padding: .1em 0;
+  width: 100%;
+  margin: 50px 0;
+  background-color: #d4d2d2;
+}
+
+.contact-card {
+  background-color: #f0f4f8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-name {
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 0;
+}
+
+p.contact-role {
+  font-weight: bold;
+  margin: 5px 0 10px;
+  font-size: 14px;
+  color: #000d1a;
+}
+
+.view-link {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #007bff;
+  margin: 10px 0 20px;
+  text-decoration: none;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
+
+.interaction-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.interaction-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.interaction-block {
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f0f4f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.interaction-block p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.interaction-block span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #13a9fe;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #1d4e9b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0f3972;
+}
+
+.relationships_graph {
+  background-image: url('/images/graphRelationship_bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px; 
+  color: #333; 
+}
+
+.section-relationshipGraph {
+  color: #195a98;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+#oauthLoginButton {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #1d4e9b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#oauthLoginButton:hover {
+  background-color: #0f3972;
+}
+
+#output {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+}
+
+#fetchDetailsButton {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #1d4e9b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#fetchDetailsButton:hover {
+  background-color: #0f3972;
+}
+
+

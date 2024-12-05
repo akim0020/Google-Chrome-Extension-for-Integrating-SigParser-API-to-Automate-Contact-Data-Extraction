@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "SigParser Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to integrate SigParser API with Gmail and LinkedIn and various domains.",
+  "permissions": ["identity", "storage", "tabs", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://ipaas.sigparser.com/*",
+    "https://mail.google.com/*",
+    "https://www.linkedin.com/*",
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/logo_sig.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content_scripts/gmail.js"]
+    },
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content_scripts/linkedin.js"]
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["https://ldmpjmpicigfhojakldmfnlmdolcepeh.chromiumapp.org/"]
+  }
+}

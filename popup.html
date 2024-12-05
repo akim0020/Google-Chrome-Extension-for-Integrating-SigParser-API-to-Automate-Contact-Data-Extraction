@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sig Parser Chrome</title>
+    <link rel="stylesheet" href="popup.css">
+    <script defer src="popup.js"></script>
+    <script src="/websiteTemplate/favicon.js"></script>
+  </head>
+  <body>
+    <!-- Logo and Exit Button Section -->
+    <div class="top-bar">
+      <img src="/images/iconSigparser.png" alt="SigParser logo" class="logo">
+      <button class="exit-btn">X</button>
+    </div>
+    
+    <!-- Header Section -->
+    <div class="header">
+      <!-- <img src="/images/phoneicon.png" alt="Phone Icon" class="logo"> -->
+      <img id="favicon" alt="Favicon" class="favicon" />
+      <h1 id="company"></h1>
+      <p id="emailDomain">haha</p>
+      <!-- <h1 id="companyDetails"></h1> -->
+      <p class="info">Contacts: <span id="contactsCount"></span> | Coworkers: <span id="coworkersCount"></span></p>
+    </div>
+
+    <div class="container">
+      <!-- Top Contacts Section -->
+      <div class="section-title">TOP CONTACTS</div>
+      <div id="topContacts"></div>
+      <a href="#" class="view-link" id="viewAllContacts">View All Contacts →</a>
+
+      <div class="longdash"></div>
+
+      <!-- Top Coworkers Section -->
+      <div class="section-title">TOP COWORKERS</div>
+      <div id="topCoworkers"></div>
+      <a href="#" class="view-link" id="viewAllCoworkers">View All Coworkers →</a>
+
+      <div class="longdash"></div>
+
+      <!-- Output Section -->
+      <div id="output"></div> <!-- Output for success/error messages -->
+         <!-- Company Details Section -->
+         <div class="company-details">
+          <div id="company"></div>
+          <div id="emailDomain"></div>
+          <div id="emailTo"></div>
+          <div id="emailFrom"></div>
+          <div id="ComMeeting"></div>
+          <div id="upMeeting"></div>
+          <div id="toInteract"></div>
+          <div id="latestRelationship"></div>
+          <div id="strongestRelationship"></div>
+          <div id="activeRelationship"></div>
+          <div id="firstRelationship"></div>
+        </div>
+      <!-- Relationships Graph Section -->
+      <div class="section-relationshipGraph">RELATIONSHIPS GRAPH</div>
+      <div class="relationships_graph">
+        <p>Get a visual snapshot of your relationships. Exclusively in Sig Parser.</p>
+        <!-- Updated Button with ID to Trigger OAuth -->
+        <a href="#" class="button" id="oauthLoginButton">Go to Sig Parser</a>
+      </div>
+
+   
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
